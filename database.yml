@@ -1,0 +1,7 @@
+---
+- name: motd
+  hosts: ntp
+  become: yes
+
+  roles:
+  - db
